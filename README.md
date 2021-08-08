@@ -16,4 +16,8 @@ npx create-react-app --template cra-template-pwa-typescript ./
 #
 # Build prod and serve prod build
 # npm run start:pwa
+
+# Now service worker continues to run even if serve is shut down!
+# Go to https://localhost:5008
+# To shut down service worker, in DevTools>Applications>Service Worker - Click unregister.
 ```
